@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_height="wrap_content"
+                android:text="@string/headerName"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:fontFamily="cursive"
+                android:background="@drawable/header_border"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instructions"
+                android:textSize="12sp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:hint="@string/name"
+                />
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/que1"/>
+
+            <RadioButton
+                android:id="@+id/opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opt1"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton
+                android:id="@+id/opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opt2"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton
+                android:id="@+id/opt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opt3"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton
+                android:id="@+id/opt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opt4"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton
+                android:id="@+id/opt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opt5"
+                android:onClick="onRadioButtonClicked"/>
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/result"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="submitTest"
+                android:text="@string/submit"/>
+
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EUAS Assessment App</string>
+    <string name="headerName">EUAS Admission Assessment.</string>
+    <string name="instructions">    Congratulations, you have qualified for the final EUAS admission exercise. Attempt all questions. You have only 20 minutes.</string>
+    <string name="que1"> 1. Each side of a rectangle is increased by 100%. What will be the percentage increase of the area? </string>
+    <string name="opt1">200</string>
+    <string name="opt2">1000</string>
+    <string name="opt3">300</string>
+    <string name="opt5">100</string>
+    <string name="opt4">400</string>
+    <string name="result">0</string>
+    <string name="submit">Submit/View Result</string>
+    <string name="thank">Thank</string>
+    <string name="name">Name</string>
+    <string name="displayAnswer">%d</string>
+</resources>
